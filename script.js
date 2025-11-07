@@ -23,7 +23,7 @@ removeItemButton.addEventListener("click", function () {
 });
 
 function renderCart() {
-  cartList.innerHTML = ""; // Clear existing list
+  cartList.innerHTML = "";
   for (let i = 0; i < groceryCart.length; i++) {
     let listItem = document.createElement("li");
     listItem.innerText = groceryCart[i];
